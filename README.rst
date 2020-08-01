@@ -60,7 +60,7 @@ An example of the weights file follows. Additional examples can be found in test
    neg smokes(b)fun -0.001*(b-27)**2+0.3  bounds[10, 35] 
    f_1: [7.38905609893065, 1]
 
-Cicuit files
+Circuit files
 -----------
    
 The circuit files contain the theory and query circuits.
@@ -123,4 +123,6 @@ An example of the circuit file follows. Additional examples can be found in test
    n12 -> n10;
    n12 -> n11;
 
-  
+Docs
+-----------
+The full documentation in html and latex/pdf can be found in docs/_build.
